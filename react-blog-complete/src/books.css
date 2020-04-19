@@ -1,0 +1,32 @@
+.books {
+  display: inline-block;
+  border: rgb(213, 127, 247) 1px solid;
+  border-radius: 10px;
+  margin: 10px;
+}
+
+.book-list, .book-form {
+  display: inline-block;
+  border: rgb(111, 235, 240) 1px solid;
+  border-radius: 10px;
+  margin: 5px;
+  padding: 10px;
+}
+
+.book-form label {
+  display: inline-block;
+  width: 125px;
+  margin-right: 5px;
+}
+
+.book-form input {
+  width: 150px;
+  margin-right: 5px;
+}
+
+.errorMessage {
+  border-radius: 10px;
+  border: red 1px solid;
+  margin: 5px;
+  padding: 10px;
+}
